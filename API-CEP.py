@@ -25,7 +25,7 @@ def main():
 #   consumo_api = requests.get(f'https://viacep.com.br/ws/{cep_INFORMADO}/xml/')
 
 #   A Implementar: (Usando cep_UF, cep_CIDADE, cep_LOGRADOURO)
-#   Também existe a opçcao de se Consultar UF+CIDADE+Logradouro
+#   Também existe a opçao de se Consultar UF+CIDADE+Logradouro quando o USUARIO não sabe o seu CEP
 #   consumo_api = requests.get(f'https://viacep.com.br/ws/SP/Rio Claro/22/json/')
     cep_data = consumo_api.json()
 
@@ -35,8 +35,6 @@ def main():
         print(f'- Endereço.....>: {cep_data["logradouro"]} {cep_data["complemento"]}')
         print(f'- Bairro.......>: {cep_data["bairro"]}')
         print(f'- Cidade/UF....>: {cep_data["localidade"]}-{cep_data["uf"]}')
-        print(f'- Codigo IBGE..>: {cep_data["ibge"]}')
-        print(f'- Codigo DDD...>: {cep_data["ddd"]}') 
     else:
         # Tratamento de Erros
 #       if consumo_api.status_code == 400:
