@@ -1,0 +1,30 @@
+﻿--------------------------------------------------------------------------------
+- Como Ativar o Ambiente Virtual:
+python -m venv P1-DW3
+cd P1-DW3	
+cd Scripts
+activate.bat
+
+--------------------------------------------------------------------------------
+- Comando para a instalação do requests (para funcionamento do sistema)
+pip install requests
+
+--------------------------------------------------------------------------------
+- Site de referencia
+- https://www.w3schools.com/python/module_requests.asp
+
+--------------------------------------------------------------------------------
+- Comando usado para a criação do requirements.txt
+pip freeze > requirements.txt
+- Site de referencia
+- https://jtemporal.com/requirements-txt/
+
+--------------------------------------------------------------------------------
+- Site da API utilizada
+- https://viacep.com.br/ws/{cep-INFORMADO}/json/
+
+--------------------------------------------------------------------------------
+- Site documentação Python
+- https://docs.python.org/3/
+
+--------------------------------------------------------------------------------
