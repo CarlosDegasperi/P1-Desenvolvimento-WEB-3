@@ -11,7 +11,7 @@ def main():
     
     # Verificação do CEP
     while not cep_INFORMADO.isdecimal() or not len(cep_INFORMADO) == 8:
-        cep_INFORMADO = input('Infomar o CEP a ser consultado (8 dígitos): ')
+        cep_INFORMADO = input('Infomar o CEP a ser consultado (8 dígitos) ou (ENTER) para SAIR: ')
         if cep_INFORMADO == '':
             print('SAINDO...')
             exit()
