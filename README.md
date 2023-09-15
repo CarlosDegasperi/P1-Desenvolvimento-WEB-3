@@ -13,6 +13,8 @@
 
 ## Comando usado para a criação do requirements.txt
 - pip freeze > requirements.txt
+## Comando usado para a instalação de dependencias (requeriments.txt)
+$ pip install -r requirements.txt
 
 ## Comando para a instalação do requests (para funcionamento do sistema)
 - pip install requests
