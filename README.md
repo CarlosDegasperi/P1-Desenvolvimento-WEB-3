@@ -1,7 +1,7 @@
 # P1-Desenvolvimento-WEB III - Python Consumo de API
-- 3.Semestre DSM-Desenvolvimento de Sistemas Multiplataforma (Fatec-Araras)
+- 3.Semestre DSM-Desenvolvimento de Sistemas Multiplataforma (FATEC-Araras)
 - Prof Me Orlando Saraiva Jr
-- Consulta de Informações do Endereço atraves do CEP informado (executando python API-CEP.py)
+- Consulta de Informações do Endereço atraves do CEP informado (executar: python API-CEP.py)
 - O programa faz a validação, consome uma API e retorna informações do endereço (Logradouro/Complemento/Bairro/Cidade e UF)
 - Foi usada a API do ViaCEP que é um webservice gratuito e de alto desempenho para consultar Códigos de Endereçamento Postal (CEP) do Brasil
 
