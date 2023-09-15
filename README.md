@@ -2,7 +2,7 @@
 - 3.Semestre DSM-Desenvolvimento de Sistemas Multiplataforma (Fatec-Araras)
 - Prof Me Orlando Saraiva Jr
 - Consulta de Informações do Endereço atraves do CEP informado
-- O programa faz a validação, consome uma API e retorna informações do endereço (Logradouro/Complemento/Bairro/Cidade e UF
+- O programa faz a validação, consome uma API e retorna informações do endereço (Logradouro/Complemento/Bairro/Cidade e UF)
 - Foi usada a API do ViaCEP que é um webservice gratuito e de alto desempenho para consultar Códigos de Endereçamento Postal (CEP) do Brasil
 
 ## Como Ativar o Ambiente Virtual
