@@ -1,7 +1,7 @@
 # P1-Desenvolvimento-WEB III - Python Consumo de API
 - 3.Semestre DSM-Desenvolvimento de Sistemas Multiplataforma (Fatec-Araras)
 - Prof Me Orlando Saraiva Jr
-- Consulta de Informações do Endereço atraves do CEP informado
+- Consulta de Informações do Endereço atraves do CEP informado (executando python API-CEP.py)
 - O programa faz a validação, consome uma API e retorna informações do endereço (Logradouro/Complemento/Bairro/Cidade e UF)
 - Foi usada a API do ViaCEP que é um webservice gratuito e de alto desempenho para consultar Códigos de Endereçamento Postal (CEP) do Brasil
 
@@ -13,10 +13,8 @@
 
 ## Comando usado para a criação do requirements.txt
 - pip freeze > requirements.txt
-## Comando usado para a instalação de dependencias (requeriments.txt)
-$ pip install -r requirements.txt
-
-## Comando para a instalação do requests (para funcionamento do sistema)
+## Comando usado para execução correta do Sistema
+- pip install -r requirements.txt
 - pip install requests
 
 ## Sites de referência
